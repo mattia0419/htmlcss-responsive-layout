@@ -103,7 +103,50 @@ nav{
     padding-bottom: 25px;
     color: #667D90;
 }
+.purple-section{
+    background-color: #9792E4;
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px 0;
+}
 
+.left-sec img{
+    margin-bottom: 150px;
+}
+.left-sec h2{
+    color: white;
+    margin-bottom: 40px;
+}
+.left-sec p{
+    color: white;
+    margin-bottom: 40px;
+}
+.right-sec{
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+.right-sec h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.circle{
+    background-color: #9792E4;
+    border-radius: 50%;
+    border: solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -250,9 +293,26 @@ nav{
        left: 40px;
         height: 80%;
     }
-    
+    .align-purple{
+        justify-content: space-between;
+        position: relative;
+        display: flex;
+    }
     .card{
         width: 388px;
         margin-right: 20px;
+    }
+    
+    .purple-section .left-sec{
+        width: 45%;
+    }
+    .purple-section .right-sec{
+        width: 40%;
+        height: 600px;
+        position: absolute;
+        bottom: 020px;
+        padding: 0 20px;
+        bottom: 0;
+        right: 0;
     }
 }
