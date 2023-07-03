@@ -41,3 +41,64 @@ nav{
 .icon-medium{
     font-size: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP */
+@media screen and (min-width: 992px){
+    .menu-icon{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+}
