@@ -7,8 +7,14 @@
     width: 80%;
     margin: 0 auto;
 }
+body{
+    margin-top: 120px;
+}
 .flex{
     display: flex;
+}
+img{
+    max-width: 100%;
 }
 .menu{
     justify-content: space-between;
@@ -18,15 +24,20 @@
 }
 header{
     background-color: #0084FD;
-    width: 100%;
     height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
     position: fixed;
-    color: white;
+    z-index: 10;
+    top: 0;
 }
 nav{
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    width: 100%;
+    height: 70px;  
+    color: white;
 }
 .link-nav{
     text-decoration: none;
@@ -41,6 +52,55 @@ nav{
 .icon-medium{
     font-size: 30px;
 }
+.icon-big{
+    font-size: 100px;
+}
+.big-card{
+    background-color: #B5DDFF;
+    border-radius: 12px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.big-card h2{
+    margin-bottom: 25px;
+    color: #0084FD;
+}
+.big-card p{
+    line-height: 26px;
+    margin-bottom: 25px;
+    color: #667D90;
+}
+.big-card button{
+    border: transparent;
+    border-radius: 15px;
+    background-color: #0084FD;
+    color: white;
+    padding: 10px 40px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.big-card img{
+    margin-bottom: -4px;
+}
+.card{
+    background-color: #B5DDFF;
+    border-radius: 12px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.card h2{
+    margin-bottom: 25px;
+    color: #0084FD;
+}
+.card p{
+    line-height: 26px;
+    padding-bottom: 25px;
+    color: #667D90;
+}
 
 
 
@@ -78,6 +138,51 @@ nav{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET */
+@media screen and (min-width:576px){
+    .card-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row-1{
+        height: 60%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .row-1 .card{
+        margin-top: 0;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .big-card{
+        width: calc(70% - 21px);
+        position: relative;
+        z-index: 1;
+    }
+    .big-card img{
+        position: relative;
+        right: 35px;
+    }
+    .card{
+        width: calc(70% / 2 - 20px);
+        
+    }
+}
 
 
 
