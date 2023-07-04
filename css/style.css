@@ -313,6 +313,7 @@ nav{
 footer{
     background-color: black;
     color: white;
+    padding-top: 2rem;
 }
 .col-footer{
     width: 70%;
