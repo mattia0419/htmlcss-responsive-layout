@@ -110,10 +110,13 @@ nav{
     width: 100%;
     margin-top: 50px;
     padding: 50px 0;
+    text-align: center;
 }
-
+.left-sec{
+    width: 100%;
+}
 .left-sec img{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .left-sec h2{
     color: white;
@@ -126,11 +129,6 @@ nav{
 .right-sec{
     background-color: white;
     border-radius: 20px;
-    padding-top: 20px;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 10px 20px;
 }
 .right-sec h3{
@@ -149,9 +147,12 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
 .container-small{
-    width: 65%;
+    width: 70%;
+    min-height: 800px;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 .white-section{
     background-color: white;
@@ -337,24 +338,32 @@ nav{
     .image img{
         width: 250px;
     }
+    .col-purple{
+    width: 50%;
+    }
     .align-purple{
         justify-content: space-between;
         position: relative;
         display: flex;
     }
-    
-    
+    .col-purple{
+        padding: 0 2rem;
+    }
+    .left-sec h2{
+        font-size: 40px;
+    }
+    .left-sec p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
     .purple-section .left-sec{
-        width: 45%;
+        width: 100%;
     }
     .purple-section .right-sec{
-        width: 40%;
-        height: 600px;
+        width: 30%;
         position: absolute;
-        bottom: 020px;
-        padding: 0 20px;
-        bottom: 0;
-        right: 0;
+        bottom: 40px;
     }
     .circle-img{
         width: 50%;
