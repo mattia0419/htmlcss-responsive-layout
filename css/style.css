@@ -150,7 +150,11 @@ nav{
 
 .container-small{
     width: 70%;
-    min-height: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.container-extra-small{
+    width: 40%;
     margin: 0 auto;
     padding: 0 2rem;
 }
@@ -279,12 +283,47 @@ nav{
     left: 140px;
     z-index: 3;
 }
-
-
-
-
-
-
+.gray{
+    color: #BBB8ED;
+    font-size: 20px;
+}
+.col-get-started{
+    color: white;
+}
+.col-get-started h2{
+    font-size: 40px;
+    margin: 30px 0;
+}
+.col-get-started h1{
+    font-size: 80px;
+    margin: 40px 0;
+    color: #FDC15F;
+}
+.col-get-started button{
+    border-radius: 25px;
+    border: transparent;
+    background-color: white;
+    color: #9792E4;
+    padding: 20px 50px;
+    margin: 30px 0;
+}
+.white{
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.col-footer{
+    width: 70%;
+    text-align: center;
+}
+.col-footer p{
+    margin: 40px 0;
+}
+.purple{
+    color: #9792E4;
+}
 
 
 
