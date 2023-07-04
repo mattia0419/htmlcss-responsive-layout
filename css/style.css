@@ -147,6 +147,10 @@ nav{
     justify-content: center;
     align-items: center;
 }
+.container-small{
+    width: 65%;
+    margin: 0 auto;
+}
 
 
 
